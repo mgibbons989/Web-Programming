@@ -1,0 +1,109 @@
+body{
+    font-family: 'Sans-Serif';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lavender;
+    height: 225px;
+    border-radius: 25px;;
+}
+.me{
+        background-color: rgb(193, 193, 243);
+
+}
+.name{
+    font-size: 125%;
+    position: relative;
+    left: 40px;
+    font-weight: bold;
+}
+
+.links{
+    font-size: 125%;
+    background-color: rgb(193, 193, 243);
+}
+.links #toplink{
+    padding-top: 10px;
+}
+.links td:hover{
+    transform: scale(0.9)
+}
+td{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+
+}
+.maincon{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 75%;
+    justify-content: space-between;
+}
+.left{
+    font-size: 120%;
+    flex-basis: 30%;
+    border: 2px rgb(209, 46, 250);
+    border-style: dashed solid;
+    border-radius: 25px;
+}
+
+.under{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.middle{
+    flex-basis: 45%;
+    flex-grow: 1;
+}
+.right{
+    border: 3px rgb(209, 46, 250);
+    border-style: dashed solid;
+    border-radius: 25px;flex-basis: 20%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 25px;
+}
+.mytab{
+    margin: auto;
+    border-spacing: 0;
+    color: white;
+    width: 50%;
+    font-size: 120%;
+}
+
+.mytab thead th{
+    background-color: lightblue;
+    color: darkblue;
+    border: solid 1px lightblue;
+    padding: 5px;
+}
+.mytab tr:nth-child(odd){
+    background: rgb(36, 140, 167);
+}
+.mytab tr:nth-child(even){
+    background: rgb(23, 170, 146);
+}
+
+.red:hover{
+    color:red;
+    font-weight: bold
+}
+
+.in{
+    font-style:italic;
+}
+
+.quote{
+    font-size: 120%;
+}
+.websites ul{
+    font-size: 120%;
+}
